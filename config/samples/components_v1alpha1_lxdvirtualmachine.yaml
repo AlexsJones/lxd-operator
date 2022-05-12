@@ -1,0 +1,7 @@
+apiVersion: components.machinery.canonical/v1alpha1
+kind: LXDVirtualMachine
+metadata:
+  name: lxdvirtualmachine-sample
+spec:
+  image: ubuntu/18.04
+  # TODO(user): Add fields here

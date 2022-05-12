@@ -1,0 +1,16 @@
+domain: machinery.canonical
+layout:
+- go.kubebuilder.io/v3
+projectName: lxd-operator
+repo: lxd-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: machinery.canonical
+  group: components
+  kind: LXDVirtualMachine
+  path: lxd-operator/api/v1alpha1
+  version: v1alpha1
+version: "3"
